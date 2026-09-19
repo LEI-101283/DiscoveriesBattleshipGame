@@ -1,3 +1,10 @@
 # Battleship
 
-Basic academic version of Battleship game to build upon.
+# GrupoTP05_LEI-1
+
+## Membros
+
+| Curso | Número | Nome
+| LEI   | 101283 | André Durães
+| LEI   | 129329 | Luís de Sousa 
+| LEI   | 113044 | Simão Espanha
