@@ -9,7 +9,7 @@
 | LEI | 101283 | André Durães |
 | LEI | 129329 | Luís de Sousa |
 | LEI | 113044 | Simão Espanha |
-| LEI | 123572 | Nelsy Pina |
+| LEI | 123572 | Nelssy Pina |
 
 ## 🎯 Objetivo
 
