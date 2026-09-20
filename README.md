@@ -11,12 +11,23 @@
 | LEI | 113044 | Simão Espanha |
 | LEI | 123572 | Nelsy Pina |
 
+## 🎯 Objetivo
+
+O objetivo do jogo é **afundar todos os navios do adversário** antes que este consiga afundar os teus.
+
+Cada jogador possui uma frota de navios inspirados nas embarcações da **Época dos Descobrimentos**, colocados secretamente no seu tabuleiro.
+
 ### Tipos e quantidade de navios
-- **Galeão** - dimensão 5, 1 navio
-- **Fragata** - dimensão 4, 1 navio
-- **Nau** - dimensão 3, 2 navios
-- **Caravela** - dimensão 2, 3 navios
-- **Barca** - dimensão 1, 4 navios
+
+| Navio | Dimensão | Quantidade |
+|---|---:|---:|
+| 🛳️ Galeão | 5 | 1 |
+| ⛵ Fragata | 4 | 1 |
+| 🚢 Nau | 3 | 2 |
+| ⛵ Caravela | 2 | 3 |
+| 🛶 Barca | 1 | 4 |
+
+A dimensão corresponde ao número de **casas consecutivas** ocupadas pelo navio.
 
 ### Links
 - [Galeão](https://pt.wikipedia.org/wiki/Gale%C3%A3o)
