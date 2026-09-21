@@ -45,6 +45,10 @@ A dimensão corresponde ao número de **casas consecutivas** ocupadas pelo navio
 
 Ganha o jogador que **primeiro atingir todos os navios da frota adversária**.
 
+## Informações sobre os barcos
+# [Galeão](https://pt.wikipedia.org/wiki/Gale%C3%A3o)
+Os Galeões, navios à vela usados entre os séculos XVI e XVIII, na [Era da Vela](https://pt.wikipedia.org/wiki/Era_da_Vela?action=edit&redlink=1), são navios de guerra com três ou mais mastros com um esquema latino (vela triangular) nos mastros traseiros, e eram construídos em estilo "carvel" (casco liso) com uma proeminente popa elevada e quadrada, e usavam planos de vela quadrada em seus mastros de proa e principais.
+
 ### Links
 - [Galeão](https://pt.wikipedia.org/wiki/Gale%C3%A3o)
 - [Fragata](https://pt.wikipedia.org/wiki/Fragata)
