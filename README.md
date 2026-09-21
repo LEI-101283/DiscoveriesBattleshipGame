@@ -7,9 +7,9 @@
 | Curso | Número | Nome |
 | :--- | :--- | :--- |
 | LEI | 101283 | André Durães |
-| LEI | 129329 | Luís de Sousa |
 | LEI | 113044 | Simão Espanha |
 | LEI | 123572 | Nelssy Pina |
+| LEI | 129329 | Luís de Sousa |
 
 ## 🎯 Objetivo
 
@@ -52,9 +52,14 @@ Os Galeões, navios à vela usados entre os séculos XVI e XVIII, na [Era da Vel
 ### [Fragata](https://pt.wikipedia.org/wiki/Fragata)
 No século XVIII, eram designadas fragatas navios de guerra com três mastros de velas redondas, com comprimento semelhante ao das naus, mas menores, mais rápidos e com armamento mais ligeiro, usados em missões de escolta e de reconhecimento.
 
-### Links
-- [Fragata](https://pt.wikipedia.org/wiki/Fragata)
-- [Nau](https://pt.wikipedia.org/wiki/Nau)
-- [Caravela](https://pt.wikipedia.org/wiki/Caravela)
-- [Barca](https://pt.wikipedia.org/wiki/Barca)
+### [Nau](https://pt.wikipedia.org/wiki/Nau)
+Nau é denominação genérica dada a navios de grande porte com capacidade de 200 pessoas, até o século XV usados em viagens de grande percurso.
+
+### [Caravela](https://pt.wikipedia.org/wiki/Caravela)
+A caravela é um tipo de embarcação inventada pelos portugueses durante a Era dos Descobrimentos, nos séculos XV e XVI.
+
+### [Barca](https://pt.wikipedia.org/wiki/Barca)
+Barca é um termo que pode se referir a uma grande variedade de embarcações. Pode se referir a um navio pequeno de madeira, com uma só coberta e um só mastro, que podia levar ou não cesto de gávea. Consoante o tipo, teria entre 10 a 20 metros de comprimento e 2,5 a 3,5 metros de boca (largura máxima).
+ 
+
 
