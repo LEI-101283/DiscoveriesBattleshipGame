@@ -52,9 +52,12 @@ Os Galeões, navios à vela usados entre os séculos XVI e XVIII, na [Era da Vel
 ### [Fragata](https://pt.wikipedia.org/wiki/Fragata)
 No século XVIII, eram designadas fragatas navios de guerra com três mastros de velas redondas, com comprimento semelhante ao das naus, mas menores, mais rápidos e com armamento mais ligeiro, usados em missões de escolta e de reconhecimento.
 
-### Links
-- [Fragata](https://pt.wikipedia.org/wiki/Fragata)
-- [Nau](https://pt.wikipedia.org/wiki/Nau)
-- [Caravela](https://pt.wikipedia.org/wiki/Caravela)
-- [Barca](https://pt.wikipedia.org/wiki/Barca)
+### [Nau](https://pt.wikipedia.org/wiki/Nau)
+Barca é um termo que pode se referir a uma grande variedade de embarcações. Pode se referir a um navio pequeno de madeira, com uma só coberta e um só mastro, que podia levar ou não cesto de gávea. Consoante o tipo, teria entre 10 a 20 metros de comprimento e 2,5 a 3,5 metros de boca (largura máxima).
+
+### [Caravela](https://pt.wikipedia.org/wiki/Caravela)
+
+### [Barca](https://pt.wikipedia.org/wiki/Barca)
+ 
+
 
