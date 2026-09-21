@@ -29,6 +29,22 @@ Cada jogador possui uma frota de navios inspirados nas embarcações da **Época
 
 A dimensão corresponde ao número de **casas consecutivas** ocupadas pelo navio.
 
+## Como jogar
+
+1. Cada jogador posiciona os seus navios na sua grelha, podendo colocá-los na horizontal ou na vertical, sem sobrepor navios.
+2. Depois de os navios estarem posicionados, os jogadores jogam **alternadamente**.
+3. Em cada turno, o jogador efetua uma **rajada de três tiros**, indicando as coordenadas `(linha, coluna)` de cada tiro.
+4. O adversário indica o resultado dos três tiros, informando:
+   - quais acertaram num navio e **qual o seu tipo**;
+   - quais atingiram **água**;
+   - quais navios foram **afundados**.
+5. Cada jogador regista na grelha do adversário os resultados dos seus tiros, incluindo os navios que já foram afundados.
+6. Os turnos continuam alternadamente até que um jogador tenha atingido todos os navios da frota adversária.
+
+## 🏆 Vitória
+
+Ganha o jogador que **primeiro atingir todos os navios da frota adversária**.
+
 ### Links
 - [Galeão](https://pt.wikipedia.org/wiki/Gale%C3%A3o)
 - [Fragata](https://pt.wikipedia.org/wiki/Fragata)
