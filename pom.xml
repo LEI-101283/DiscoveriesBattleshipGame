@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>iscteiul.ista</groupId>
@@ -15,6 +14,9 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
+    <!-- Configurações adicionadas para forçar o Java 17 no compilador -->
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
   </properties>
 
   <dependencyManagement>
@@ -28,7 +30,7 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-  
+
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -42,11 +44,13 @@
       <version>2.25.2</version>
       <scope>compile</scope>
     </dependency>
+  </dependencies>
 
   <reporting>
     <plugins>
       <plugin>
         <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>3.5.0</version>
       </plugin>
     </plugins>
   </reporting>
