@@ -7,8 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author fba
+ * Represents the game logic and state management for a Battleship match.
  *
+ * @author fba
  */
 public class Game implements IGame {
     private IFleet fleet;
@@ -21,7 +22,9 @@ public class Game implements IGame {
 
 
     /**
-     * @param fleet
+     * Constructs a new Game instance with the specified fleet.
+     *
+     * @param fleet the fleet of ships assigned to this game
      */
     public Game(IFleet fleet) {
         shots = new ArrayList<>();
@@ -30,10 +33,8 @@ public class Game implements IGame {
         this.fleet = fleet;
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see battleship.IGame#fire(battleship.IPosition)
+    /**
+     * {@inheritDoc}
      */
     @Override
     public IShip fire(IPosition pos) {
@@ -58,60 +59,48 @@ public class Game implements IGame {
         return null;
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see battleship.IGame#getShots()
+    /**
+     * {@inheritDoc}
      */
     @Override
     public List<IPosition> getShots() {
         return shots;
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see battleship.IGame#getRepeatedShots()
+    /**
+     * {@inheritDoc}
      */
     @Override
     public int getRepeatedShots() {
         return this.countRepeatedShots;
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see battleship.IGame#getInvalidShots()
+    /**
+     * {@inheritDoc}
      */
     @Override
     public int getInvalidShots() {
         return this.countInvalidShots;
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see battleship.IGame#getHits()
+    /**
+     * {@inheritDoc}
      */
     @Override
     public int getHits() {
         return this.countHits;
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see battleship.IGame#getSunkShips()
+    /**
+     * {@inheritDoc}
      */
     @Override
     public int getSunkShips() {
         return this.countSinks;
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see battleship.IGame#getRemainingShips()
+    /**
+     * {@inheritDoc}
      */
     @Override
     public int getRemainingShips() {
@@ -119,11 +108,23 @@ public class Game implements IGame {
         return floatingShips.size();
     }
 
+    /**
+     * Validates if a position is within the board boundaries.
+     *
+     * @param pos the position to check
+     * @return true if valid, false otherwise
+     */
     private boolean validShot(IPosition pos) {
         return (pos.getRow() >= 0 && pos.getRow() <= Fleet.BOARD_SIZE && pos.getColumn() >= 0
                 && pos.getColumn() <= Fleet.BOARD_SIZE);
     }
 
+    /**
+     * Checks if a position has already been targeted.
+     *
+     * @param pos the position to check
+     * @return true if repeated, false otherwise
+     */
     private boolean repeatedShot(IPosition pos) {
         for (int i = 0; i < shots.size(); i++)
             if (shots.get(i).equals(pos))
@@ -131,7 +132,12 @@ public class Game implements IGame {
         return false;
     }
 
-
+    /**
+     * Renders the game board to standard output using the specified marker.
+     *
+     * @param positions the positions to mark
+     * @param marker the character marker
+     */
     public void printBoard(List<IPosition> positions, Character marker) {
         char[][] map = new char[Fleet.BOARD_SIZE][Fleet.BOARD_SIZE];
 
