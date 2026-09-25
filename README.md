@@ -47,7 +47,7 @@ Ganha o jogador que **primeiro atingir todos os navios da frota adversária**.
 
 ## Informações sobre os barcos
 ### [Galeão](https://pt.wikipedia.org/wiki/Gale%C3%A3o)
-Os Galeões, navios à vela usados entre os séculos XVI e XVIII, na [Era da Vela](https://pt.wikipedia.org/wiki/Era_da_Vela?action=edit&redlink=1), são navios de guerra com três ou mais mastros com um esquema latino (vela triangular) nos mastros traseiros, e eram construídos em estilo "carvel" (casco liso) com uma proeminente popa elevada e quadrada, e usavam planos de vela quadrada em seus mastros de proa e principais.
+Os Galeões, navios à vela usados entre os séculos XVI e XVIII, na Era da Vela, são navios de guerra com três ou mais mastros com um esquema latino (vela triangular) nos mastros traseiros, e eram construídos em estilo "carvel" (casco liso) com uma proeminente popa elevada e quadrada, e usavam planos de vela quadrada em seus mastros de proa e principais.
 
 ### [Fragata](https://pt.wikipedia.org/wiki/Fragata)
 No século XVIII, eram designadas fragatas navios de guerra com três mastros de velas redondas, com comprimento semelhante ao das naus, mas menores, mais rápidos e com armamento mais ligeiro, usados em missões de escolta e de reconhecimento.
