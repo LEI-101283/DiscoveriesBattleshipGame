@@ -6,11 +6,17 @@ package iscteiul.ista.battleship;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents a fleet of ships in the Battleship game.
+ *
+ * A fleet maintains a collection of ships and provides operations
+ * for adding, retrieving, filtering, and displaying ships.
+ */
 public class Fleet implements IFleet {
     /**
      * This operation prints all the given ships
      *
-     * @param ships The list of ships
+     * @param ships the list of ships to print
      */
     static void printShips(List<IShip> ships) {
         for (IShip ship : ships)
@@ -21,10 +27,18 @@ public class Fleet implements IFleet {
 
     private List<IShip> ships;
 
+    /**
+     * Creates an empty fleet.
+     */
     public Fleet() {
         ships = new ArrayList<>();
     }
 
+    /**
+    * Returns the ships currently contained in the fleet
+    *
+    * @return the list of ships in the fleet.
+    */
     @Override
     public List<IShip> getShips() {
         return ships;
@@ -88,11 +102,23 @@ public class Fleet implements IFleet {
         return null;
     }
 
+    /**
+     * Checks whether a ship is completely inside the board.
+     *
+     * @param s the ship to check
+     * @return true if the ship is completely inside the board, false otherwise
+     */
     private boolean isInsideBoard(IShip s) {
         return (s.getLeftMostPos() >= 0 && s.getRightMostPos() <= BOARD_SIZE - 1 && s.getTopMostPos() >= 0
                 && s.getBottomMostPos() <= BOARD_SIZE - 1);
     }
 
+    /**
+     * Checks whether the ship is in risk of collision with another ship in the fleet
+     *
+     * @param s the ship to check
+     * @return true if the ship is too close to another, false otherwise
+     */
     private boolean colisionRisk(IShip s) {
         for (int i = 0; i < ships.size(); i++) {
             if (ships.get(i).tooCloseTo(s))
