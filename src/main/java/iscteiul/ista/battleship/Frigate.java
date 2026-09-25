@@ -3,13 +3,17 @@
  */
 package iscteiul.ista.battleship;
 
+/**
+ * Represents a frigate, a type of ship in the Battleship game
+ */
 public class Frigate extends Ship {
     private static final Integer SIZE = 4;
     private static final String NAME = "Fragata";
 
     /**
-     * @param bearing
-     * @param pos
+     * @param bearing the orientation of the frigate
+     * @param pos the initial position of the frigate
+     * @throws IllegalArgumentException if the bearing is invalid
      */
     public Frigate(Compass bearing, IPosition pos) throws IllegalArgumentException {
         super(Frigate.NAME, bearing, pos);
