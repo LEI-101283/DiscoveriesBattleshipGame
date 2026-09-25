@@ -1,0 +1,19 @@
+name: PR Notification
+
+on:
+  pull_request:
+    types: [opened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Notify team
+        run: gh pr comment "$PR_URL" --body "@LEI-101283 @LEI-129329 @LEI-113044 @LEI-123572 A new Pull Request has been opened and is ready for review."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
