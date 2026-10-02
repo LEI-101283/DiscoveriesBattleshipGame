@@ -11,6 +11,8 @@
 | LEI | 123572 | Nelssy Pina |
 | LEI | 129329 | Luís de Sousa |
 
+Obs.: O Membro Simão Espanha tem duas contas diferentes com contribuições neste projeto: O User @ssespa99 e o User @LEI-113044.
+
 ## 🎯 Objetivo
 
 O objetivo do jogo é **afundar todos os navios do adversário** antes que este consiga afundar os teus.
